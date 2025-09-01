@@ -21,7 +21,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
-              India's premier AI-powered platform for executive and senior-level recruitment. 
+              India&apos;s premier AI-powered platform for executive and senior-level recruitment. 
               Connecting exceptional talent with visionary organizations.
             </p>
             <div className="space-y-2 text-sm text-gray-400">

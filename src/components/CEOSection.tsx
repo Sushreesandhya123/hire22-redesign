@@ -2,6 +2,8 @@
 import { motion } from 'framer-motion'
 import { MessageCircle, Award, Users, TrendingUp } from 'lucide-react'
 import ceo from '@/assets/joby-us.webp'
+import Image from 'next/image'
+
 
 export default function CEOSection() {
   return (
@@ -28,10 +30,10 @@ export default function CEOSection() {
 
             <div className="prose prose-lg prose-invert">
               <p className="text-gray-300 leading-relaxed mb-6">
-                "I'm Joby Joseph, a Serial Entrepreneur with 15 years in HR Technology. After founding Freshersworld.com—which served 30,000+ companies with 15 million user signups and 1.5 million app downloads—I recognized a critical gap in senior-level recruitment."
+                &quot;I&apos;m Joby Joseph, a Serial Entrepreneur with 15 years in HR Technology. After founding Freshersworld.com—which served 30,000+ companies with 15 million user signups and 1.5 million app downloads—I recognized a critical gap in senior-level recruitment.&quot;
               </p>
               <p className="text-gray-300 leading-relaxed mb-8">
-                "Hire22.ai represents the next evolution in executive hiring. We're not just matching resumes; we're revolutionizing how organizations connect with transformational leaders."
+                &quot;Hire22.ai represents the next evolution in executive hiring. We&apos;re not just matching resumes; we&apos;re revolutionizing how organizations connect with transformational leaders.&quot;
               </p>
             </div>
 
@@ -41,8 +43,6 @@ export default function CEOSection() {
             </button>
           </motion.div>
 
-          {/* CEO Profile */}
-          {/* CEO Profile */}
 <motion.div
   initial={{ opacity: 0, x: 30 }}
   whileInView={{ opacity: 1, x: 0 }}
@@ -54,10 +54,12 @@ export default function CEOSection() {
     <div className="text-center mb-6">
       {/* CEO Image */}
       <div className="w-35 h-35 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
-        <img
-          src={ceo.src}
-          alt="CEO Joby Joseph"
-          className="w-full h-full object-cover"
+        <Image
+        src={ceo}
+        alt="CEO Joby Joseph"
+        className="w-full h-full object-cover"
+        width={140}
+        height={140}
         />
       </div>
 

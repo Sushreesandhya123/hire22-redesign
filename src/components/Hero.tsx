@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { ArrowRight, Star, Users, Clock, Play, Award, Target, CheckCircle } from 'lucide-react'
+import { ArrowRight, Users, Clock, Play, Award, Target, CheckCircle } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
@@ -29,7 +29,7 @@ const Hero = () => {
             >
               <span className="inline-flex items-center px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-indigo-200 text-indigo-700 text-sm font-semibold shadow-sm mb-6">
                 <span className="mr-2">🚀</span>
-                India's Premier AI-Powered Recruitment Platform
+                India&apos;s Premier AI-Powered Recruitment Platform
               </span>
             </motion.div>
 

@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Plus, Minus, HelpCircle, ArrowRight, Sparkles } from 'lucide-react'
+import { Plus, Minus, HelpCircle, ArrowRight } from 'lucide-react'
 
 const faqs = [
   {
