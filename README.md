@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hire22 Redesign – Hire Now Page
 
-## Getting Started
+This project is a **redesigned version of the Hire Now page** from [Hire22.ai](https://hire22.ai), built with **Next.js (App Router)**.  
+The goal was to improve UI/UX, performance, SEO, and accessibility, while adding a new registration form to demonstrate frontend integration with APIs.
 
-First, run the development server:
+🔗 **Live Demo:** [hire22-redesign.vercel.app](https://hire22-redesign.vercel.app)  
+💻 **Source Code:** [GitHub Repository](https://github.com/Sushreesandhya123/hire22-redesign)  
+
+---
+
+## ✨ Features & Improvements
+
+### 1. Registration Form (New Feature)
+- Added a short registration form with the following fields:  
+  - Company Name  
+  - Contact Person Name  
+  - Email  
+  - Mobile Number  
+- On form submission:  
+  - Sends data to a  API  as JSON.  
+  - Displays a **success** or **error** message dynamically.  
+
+### 2. UI/UX Redesign
+- Created a **modern, clean layout** instead of copying the original.  
+- Improved visual hierarchy with better spacing, typography, and icon usage.  
+- Added **Framer Motion animations** for smooth interactions.  
+
+### 3. Responsiveness
+- Designed with a **mobile-first approach**.  
+- Optimized for **mobile, tablet, and desktop** using Tailwind CSS.  
+
+### 4. Performance Enhancements
+- Optimized images using **`next/image`** (lazy loading, responsive sizes).  
+- Applied **automatic font optimization** with `next/font` (Geist).  
+- Minimized unused styles with Tailwind JIT.  
+
+### 5. SEO Optimizations
+- Added **semantic HTML structure** (`<header>`, `<main>`, `<section>`, `<footer>`).  
+- Implemented **meta tags** for description and social sharing.  
+- Used proper heading hierarchy (`h1`, `h2`, `h3`) for better indexing.  
+
+### 6. Accessibility Improvements
+- Added **labels and aria attributes** for form inputs.  
+- Ensured **sufficient color contrast** for readability.  
+- Enabled **keyboard navigation** for all interactive elements.  
+
+---
+
+## 🛠 Tech Stack
+- [Next.js 14](https://nextjs.org/) (App Router)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [Framer Motion](https://www.framer.com/motion/) (animations)  
+- [Lucide Icons](https://lucide.dev/) (SVG icons)  
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/Sushreesandhya123/hire22-redesign.git
+cd hire22-redesign
+npm install
